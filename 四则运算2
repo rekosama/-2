@@ -191,7 +191,7 @@ if n==1:
                 break;
             sr = Fraction(jg)  #化为分数形式
             if sr == result: #检测输入（sr）的答案与正确答案是否一致
-                print('right')
+                print('right\n')
                 cj+=1
             else:
                 print('error. the Tight answer is', result,'\n')
